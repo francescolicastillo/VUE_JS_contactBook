@@ -1,0 +1,54 @@
+@import './reset.scss';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  --dark: #2a2d3b;
+  --white-two: #fff;
+  --white: #e1e1e1;
+  --pale-grey: #e4e7f4;
+  --black-8: rgba(0, 0, 0, 0.08);
+  --black-8-16: rgba(0, 0, 0, 0.16);
+
+  --color-red: #952323;
+  --color-text: var(--dark);
+  --color-primary: #41b883;
+  --color-primary-light: #b6ffde;
+  --color-secondary: #34495e;
+  --color-secondary-light: #99bee3;
+  --color-background: #f8f9fd;
+  --color-border: #c0c3d2;
+
+  --border-radius: 5px;
+
+  min-width: 250px;
+  min-height: 100vh;
+  color: var(--color-text);
+  //background: var(--color-background) url('bg.jpg');
+  background-size: cover;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: 0.4s;
+  &:hover {
+    color: var(--dark);
+  }
+}
+
+b {
+  font-weight: bold;
+}
