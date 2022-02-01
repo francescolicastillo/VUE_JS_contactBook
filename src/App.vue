@@ -1,11 +1,21 @@
-<script setup></script>
+<script>
+import Home from "./views/Home.vue";
+
+export default {
+  components: {
+    Home,
+  }
+}
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main>
+    <Home />
+  </main>
 </template>
 
-<style scoped></style>
+<style>
+body {
+  background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgba(60, 255, 242, 0.29));
+}
+</style>
