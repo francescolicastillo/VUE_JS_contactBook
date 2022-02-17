@@ -2,7 +2,7 @@
 import Logo from '@/components/Logo.vue'
 import Search from '@/components/Search.vue'
 import Button from '@/components/Button.vue'
-import IconPlus from '../Icons/IconPlus.vue'
+import IconPlus from '../icons/IconPlus.vue'
 import { useContactStore } from '@/stores/contact'
 
 const contact = useContactStore()
