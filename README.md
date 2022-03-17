@@ -1,6 +1,19 @@
-# contactBook
+# Contact Book with Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+## Demo
+
+https://fc-vue-js-contact-book.vercel.app/
+
+## Tech-stack
+
+- Vue
+- JavaScript
+- Vite
+- Pinia
+- SCSS
+- HTML
+- localStorage
+- node
 
 ## Project Setup
 
